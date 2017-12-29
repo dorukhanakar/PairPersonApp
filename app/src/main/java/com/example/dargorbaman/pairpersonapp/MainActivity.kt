@@ -1,10 +1,9 @@
 package com.example.dargorbaman.pairpersonapp
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import java.util.Random
+import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             "Hasan Erkul","Hilmi Mertcan Gümüş","Kaan Türk","Mehmet Anıl Yeşil","Mehmet Batuhan Sakarya",
             "Mehmet Emre Çetin","Mesut Kılıç","Mohammed Raad","Dorukhan Akar","Oğuzhan Öksel","Ozan Deniz Demirtaş",
             "Sefa Özel","Semih Şahin","Seray Keslin","Sezgin Tazıcı","Şafak Birkan","Şemi Yalçın","Taha Şalva",
-            "Tuğba Tepe","Tuğçe Durgut","Yusuf Emre Kenar","Çağrı Kaçmaz")//46 kişi
+            "Tuğba Tepe", "Tuğçe Durgut", "Yusuf Emre Kenar", "Çağrı Kaçmaz")  // 46 kişi
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
